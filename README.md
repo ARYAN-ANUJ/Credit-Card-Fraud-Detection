@@ -26,11 +26,3 @@ Performance of the neural network is compared for different optimization approac
 
 The best results are achieved by over-sampling the under-represented class using SMOTE. With this approach, the model is able to detect 100% of all fraudulent transactions in the unseen test set while maintaining an acceptable number of false positives.
 
-Confusion matrix achieved using SMOTE over-sampling and a simple dense neural network:
-
-![Confusion Matrix](confusion_matrix.png)
-
-Comparison of key performance indicators between the tested approaches:
-
-![Benchmark](benchmark.png)
-
